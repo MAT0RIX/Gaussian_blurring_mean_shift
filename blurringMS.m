@@ -1,4 +1,9 @@
-# Gaussian_blurring_mean_shift
+% Gaussian Blurring Mean Shift                                         |
+% introduced by Fukunaga, Cheng as well as Carreira                    |
+% 5 iterations on 3000 pixels take 2 sec and produce good segmentation |
+% relatively faster compared to GMS implemented similarily             |
+% coded by MAT0RIX, inspired by opensrc greatly               5/9/2017 |
+% ---------------------------------------------------------------------*
 function [out] = blurringMS(image,hr,isLuv)
 
 % argument check
